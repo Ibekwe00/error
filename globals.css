@@ -1,0 +1,106 @@
+html,
+body {
+  padding: 0;
+  background-color: aqua;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.modalBackground {
+  width: 70vw;
+  height: 100vh;
+ 
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+.modalContainer {
+  width:500px;
+  height: 640px;
+  border-radius: 12px;
+  padding-bottom: 595px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 38px;
+  
+  margin-right: 235px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 30%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 12px;
+  padding-right: 30px;
+  padding-right: 164px;
+}
+
+.form-group{
+  padding-left: 590px;
+  justify-content: right;
+  align-items: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 740px;
+  position: absolute;
+  padding-right: 1px;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
